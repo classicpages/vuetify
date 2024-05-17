@@ -242,7 +242,7 @@
   import Footer from "../components/Footer.vue";
   
   export default {
-    name: "Home",
+    name: "Home-vue",
     data: () => ({
       icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
     }),
