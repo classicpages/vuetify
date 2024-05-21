@@ -40,10 +40,14 @@
         </v-row>
       </v-card>
     </v-footer>
+
+   
   </template>
   
   <script>
-  export default {};
+  export default {
+    name: 'footer-vue'
+  };
   </script>
   
   <style>

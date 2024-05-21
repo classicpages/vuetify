@@ -2,17 +2,18 @@
     <v-app
       id="home"
       :style="{ background: $vuetify.theme.themes.dark.background }"
+      class="page"
     >
       <nav-bar />
-      <v-container fluid>
+      <v-container fluid page>
         <v-row>
           <v-col cols="6">
             <v-img src="1.png" contain max-height="500"></v-img>
           </v-col>
           <v-col cols="6">
-            <h5 class="red--text text--darken-4 top">Hello Im Agetha</h5>
-            <h1 class="white--text">Visual Designer</h1>
-            <p class="grey--text">
+            <h5 class="red--text text--darken-4 top">Hello I'm Agetha</h5>
+            <h1 class="white--text visual">Visual Designer</h1>
+            <p class="grey--text lorem">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
               Adipisci explicabo, cupiditate necessitatibus iure hic omnis est ab
               <br />
@@ -33,10 +34,10 @@
                       Lorem, ipsum dolor sit amet <br />consectetur adipisicing
                       elit.
                     </p>
-                    <v-btn color="#A7121D" dark text>
+                    <p color="#A7121D" dark text>
                       know more
                       <v-icon right>mdi-arrow-right</v-icon>
-                    </v-btn>
+                    </p>
                   </div>
                   <div class="child bgColor2">
                     <v-icon color="" x-large class="ml-3" dark
@@ -197,10 +198,10 @@
               <div class="secondchild1" id="contact">
                 <v-row>
                   <v-col cols="7">
-                    <h1 class="white--text">
+                    <h1 class="white--text work">
                       Let's work together on<br />your next project
                     </h1>
-                    <p class="grey--text">
+                    <p class="grey--text lorem">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Eius nesciunt ducimus natus <br />
                     </p>
@@ -255,13 +256,28 @@
   <style scoped>
   .top {
     margin-top: 180px;
+    color: rgb(204, 79, 79);
+  }
+  .visual {
+    color: #fff;
+  }
+  .page {
+    background-color: #181818
+  }
+  .work {
+    color: white
+  }
+  .lorem {
+    color: gray
   }
   .topInverse {
     margin-top: -250px;
   }
+ 
   .topTolbar {
     margin-top: 100px;
     text-align: center;
+    color: #fff;
   }
   .first {
     width: 100%;
